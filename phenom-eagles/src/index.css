@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  background-image: url("https://media.discordapp.net/attachments/956467423173832705/961596050160889896/bgforest.gif?width=276&height=676");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navigation {
+  max-width: 1300px;
+  margin: auto;
+}
+
+ul {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+}
+
+.home__container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.home__desc {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+}
+
+.home__contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.burger__menu {
+  backdrop-filter: blur(5px);
+}
