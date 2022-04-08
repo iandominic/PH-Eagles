@@ -44,3 +44,91 @@ ul {
 .burger__menu {
   backdrop-filter: blur(5px);
 }
+
+.row__div {
+  white-space: nowrap;
+  box-sizing: content-box;
+  margin: 2rem 0;
+  display: flex;
+  animation: move 20s linear infinite reverse;
+}
+
+.row__div__2 {
+  white-space: nowrap;
+  box-sizing: content-box;
+  margin: 2rem 0;
+  display: flex;
+  animation: move 20s linear infinite none;
+}
+
+
+.image__container {
+  width: 15rem;
+  margin: 0 1rem;
+  background-color: lightblue;
+
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.image__container img {
+  width: 100%;
+  height: auto;
+}
+
+.details__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 1rem;
+  background-color: #1B1B1B;
+  border: 2px solid white;
+  font-family: "Outfit", sans-serif;
+
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.details__container span {
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.details__container h1 {
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.price img {
+  width: 1rem;
+  height: auto;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.showcase__section {
+  background-color: #1B1B1B;
+}
+
+.showcase__section >*:first-child  {
+  animation-duration: 20s;
+}
+
+.showcase__section >*:last-child  {
+  animation-duration: 18s;
+}
+
+@keyframes move {
+  0%{transform: translateX(100%)};
+  100%{transform: translateX(-100%)};
+}
