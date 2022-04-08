@@ -2,7 +2,9 @@ import React from 'react'
 
 const Roadmap = () => {
   return (
-    <div>Roadmap</div>
+    <section className="roadmap__section w-full h-screen">
+      
+    </section>
   )
 }
 
