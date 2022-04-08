@@ -23,7 +23,7 @@ const Navigation = () => {
     window.addEventListener('scroll', changeColor)
 
   return (
-    <div className={color ? "header fixed w-full bg-gray-900 z-10 transition-all duration-200 ease-in-out" : "header fixed w-full bg-transparent z-10 transition-all duration-200 ease-in-out"}>
+    <div className={color ? "header fixed w-full bg-gray-900 z-[999] transition-all duration-200 ease-in-out" : "header fixed w-full bg-transparent z-10 transition-all duration-200 ease-in-out"}>
         <div className="navigation h-16 md:h-[7rem] w-11/12 m-auto flex justify-between items-center bg-transparent">
             <div className="cursor-pointer">
                <img className="md:hidden" src={logo} alt='logo' />
