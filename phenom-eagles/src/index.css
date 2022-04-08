@@ -112,7 +112,7 @@ ul {
   height: auto;
 }
 
-.main {
+.main { 
   overflow: hidden;
 }
 
@@ -125,10 +125,10 @@ ul {
 }
 
 .showcase__section >*:last-child  {
-  animation-duration: 18s;
+  animation-duration: 15s;
 }
 
 @keyframes move {
-  0%{transform: translateX(100%)};
-  100%{transform: translateX(-100%)};
+  0%{transform: translateX(100%)}
+  100%{transform: translateX(-100%)}
 }
