@@ -7,6 +7,7 @@ import Showcase from "./components/Showcase";
 import Faq from "./components/Faq";
 import Team from "./components/Team";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <Showcase />
       <Faq />
       <Team />
-      <Banner />
+      <Footer />
     </div>
   );
 }

@@ -1,29 +1,9 @@
-import gsap from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
-import React, { useLayoutEffect, useRef } from 'react'
+import React from 'react'
 import 'tw-elements';
 
 const Faq = () => {
-  const ref = useRef(null)
-  gsap.registerPlugin(ScrollTrigger)
-  useLayoutEffect(() => {
-    let element = ref.current
-    ScrollTrigger.create({
-      trigger: element,
-      start: 'top top',
-      end: 'bottom top',
-      pin: true,
-      pinSpacing: false,
-      scrub: true,
-    })
-  
-    return () => {
-      
-    };
-  }, [])
-
   return (
-    <section className="faq__section w-full h-full pb-24" ref={ref}>
+    <section className="faq__section w-full h-full pb-24">
       <h1 className="text-4xl text-center pt-[4rem] pb-[2rem] faq__title">FAQ</h1>
       <div class="w-[90%] max-w-[920px] bg-transparent m-auto" id="accordionExample">
         <div class="accordion-item bg-white border-white bg-transparent">

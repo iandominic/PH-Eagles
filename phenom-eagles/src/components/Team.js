@@ -1,4 +1,6 @@
-import React from 'react'
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
+import React, { useLayoutEffect, useRef } from 'react'
 import img1 from '../assets/NFTs/eagol.png'
 import img2 from '../assets/NFTs/eagol2.png'
 import img3 from '../assets/NFTs/eagol3.png'
@@ -20,8 +22,26 @@ const MemberComponent = ({img, name=" ", position=" "}) => {
 }
 
 const Team = () => {
+  const ref = useRef(null)
+  gsap.registerPlugin(ScrollTrigger)
+  useLayoutEffect(() => {
+    let element = ref.current
+    ScrollTrigger.create({
+      trigger: element,
+      start: 'bottom bottom',
+      end: 'bottom top',
+      pin: true,
+      pinSpacing: false,
+      scrub: true,
+    })
+  
+    return () => {
+      ScrollTrigger.kill()
+    };
+  }, [])
+
   return (
-    <section className="team__section w-full h-full relative">
+    <section className="team__section w-full h-full relative" ref={ref}>
       <ConfettiComponent />
         <div className="team__containers">
           <h1 className="team__title">

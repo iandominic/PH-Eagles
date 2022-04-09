@@ -297,6 +297,28 @@ ul {
 
 /* Faq */
 
+/* Banner Footer */
+
+.banner__title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+
+.banner__btn {
+  background-color: #232323;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer__section {
+  background-color: #12183E;
+}
+
+/* Banner Footer */
+
 /* Media Queries */
 
 @media screen and (min-width: 765px) {
