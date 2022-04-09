@@ -243,6 +243,10 @@ ul {
   color: white !important;
 }
 
+.accordion-item {
+  padding-top: 1rem;
+}
+
 .accordion-item:last-of-type .accordion-button.collapsed {
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -268,10 +272,6 @@ ul {
 .accordion-item:first-of-type .accordion-button {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-}
-
-.accordion__header {
-  display: none !important;
 }
 
 .accordion-button:not(.collapsed) {
