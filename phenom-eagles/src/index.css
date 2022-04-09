@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
 body {
+}
+
+.bg__div {
   background-image: url("https://media.discordapp.net/attachments/956467423173832705/961596050160889896/bgforest.gif?width=276&height=676");
   background-position: center;
   background-size: cover;

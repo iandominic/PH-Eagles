@@ -12,7 +12,7 @@ const Lore = () => {
         <div className="home__container w-[90%] m-auto">
             <div className="home__contents w-[100%] h-full">
                <div className="w-full h-full cursor-pointer" onClick={handleLore}>
-                   {openLore ? <img className="w-full md:hidden" src={scrollFull} alt="scroll" /> : <img className="w-full md:hidden animate-pulses" src={scroll} alt="scroll" />}
+                   {openLore ? <img className="w-full md:hidden" src={scrollFull} alt="scroll" /> : <img className="w-full md:hidden animate-pulse" src={scroll} alt="scroll" />}
                </div>
             </div>
         </div>
