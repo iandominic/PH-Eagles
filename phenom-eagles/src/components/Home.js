@@ -6,7 +6,7 @@ import logoGif2 from '../assets/eagle-bilog-2.png'
 
 const Home = () => {
   return (
-    <section className="home__section h-[90vh] w-full">
+    <section className="home__section h-[90%] py-[8rem] w-full">
         <div className="home__container w-11/12 h-full m-auto flex flex-col justify-center items-center">
             <div className="home__contents w-full flex flex-col items-center gap-8">
                 <div className="home__logo">

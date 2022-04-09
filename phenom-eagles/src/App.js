@@ -6,6 +6,7 @@ import Roadmap from "./components/Roadmap";
 import Showcase from "./components/Showcase";
 import Faq from "./components/Faq";
 import Team from "./components/Team";
+import Banner from "./components/Banner";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Showcase />
       <Faq />
       <Team />
+      <Banner />
     </div>
   );
 }

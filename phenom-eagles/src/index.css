@@ -141,12 +141,12 @@ ul {
 }
 
 .item__container {
-  width: calc(20rem - 4vw);
   padding: 1.6rem 0;
   color: black;
   margin: 2rem 1rem;
   position: relative;
-
+  width: 100%;
+  max-width: 350px;
   background-color: #1b1b1b4b;
   border-radius: 7px;
   z-index: 5;
@@ -154,12 +154,20 @@ ul {
   border: 2px solid #fff;
 }
 
+.team__containers {
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .item__container .image__container:hover {
   transform: scale(1.1);
 }
 
 .item__container .image__container {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   background-color: #EEEDDE;
   border-radius: 7px;
@@ -213,9 +221,10 @@ ul {
 }
 
 .team__container {
-  width: 75;
+  width: 100%;
   margin: 2rem auto;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
