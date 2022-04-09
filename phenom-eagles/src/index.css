@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
 body {
+
 }
 
 .bg__div {
@@ -296,6 +297,19 @@ ul {
 
 /* Faq */
 
+/* Media Queries */
+
+@media screen and (min-width: 765px) {
+  .bg__div {
+    background-image: url("../src/assets/bg-desktop.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 200%;
+  }
+}
+
+/* Media Queries */
 @keyframes move {
   0%{transform: translateX(100%)}
   100%{transform: translateX(-100%)}
