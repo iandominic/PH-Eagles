@@ -64,7 +64,6 @@ ul {
   animation: move 20s linear infinite none;
 }
 
-
 .image__container {
   width: 15rem;
   margin: 0 1rem;
@@ -250,6 +249,15 @@ ul {
 .accordion-item:last-of-type .accordion-collapse {
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
+}
+
+.accordion-item:first-of-type {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .accordion__header {

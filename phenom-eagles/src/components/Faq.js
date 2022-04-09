@@ -4,8 +4,8 @@ import 'tw-elements';
 const Faq = () => {
   return (
     <section className="faq__section w-full h-full pb-24">
-      <h1 className="text-4xl text-center pt-[4rem] pb-[5rem] faq__title">FAQ</h1>
-      <div class="w-[90%] bg-transparent m-auto" id="accordionExample">
+      <h1 className="text-4xl text-center pt-[4rem] pb-[2rem] faq__title">FAQ</h1>
+      <div class="w-[90%] max-w-[920px] bg-transparent m-auto" id="accordionExample">
         <div class="accordion-item bg-white border-white bg-transparent">
           <h2 class="accordion-header mb-0" id="headingOne">
             <button class=" 

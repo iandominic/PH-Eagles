@@ -5,6 +5,7 @@ import img3 from '../assets/NFTs/eagol3.png'
 import img4 from '../assets/NFTs/eagol4.png'
 import img5 from '../assets/NFTs/eagol5.png'
 import img6 from '../assets/NFTs/eagol6.png'
+import ConfettiComponent from '../components/Confetti';
 
 const MemberComponent = ({img, name=" ", position=" "}) => {
     return (
@@ -18,9 +19,11 @@ const MemberComponent = ({img, name=" ", position=" "}) => {
     )
 }
 
+
 const Team = () => {
   return (
     <section className="team__section w-full h-full relative">
+      <ConfettiComponent />
         <h1 className="team__title">
             Team
         </h1>
